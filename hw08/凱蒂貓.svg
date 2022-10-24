@@ -18,7 +18,7 @@
   <ellipse stroke="black" fill="black"  stroke-width="3" cx="355" cy="308" rx="13" ry="17"/>
   <ellipse stroke="black" fill="#fdc417"  stroke-width="6" cx="257" cy="340" rx="19" ry="13"/>
   <!-- 蝴蝶結  -->
-  <path d="M300 90 Q350 70 360 180 Q380 240 400 244 C420 250 463 235 455 170 Q446 130 390 160 L320 200 Q260 215 256 175 Q265 115 302 89" stroke="black" stroke-width="11" fill="#e72235"/> 
+  <path d="M300 90 Q350 70 360 180 Q380 240 400 244 C420 250 463 235 455 170 Q446 130 390 160 L320 200 Q260 215 256 175 Q265 115 302 89" stroke="black" stroke-width="11" fill="#fe3034"/> 
   <ellipse stroke="black" fill="#fe3034"  stroke-width="11" cx="322" cy="159" rx="20" ry="20"/>
   <ellipse stroke="black" fill="#fe3034"  stroke-width="11" cx="400" cy="195" rx="16" ry="16"/>
   <ellipse stroke="black" fill="#fe3034"  stroke-width="11" cx="360" cy="180" rx="35" ry="35"/>
