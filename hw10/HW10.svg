@@ -2,37 +2,126 @@
 
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
   height="512" width="512" viewBox="0 0 512 512">
-
   <!-- 底圖 小圓 -->
-  <circle cx="256" cy="480" r="32" fill="none" stroke="black"/>
-  <circle cx="256" cy="448" r="32" fill="none" stroke="gray"/>
-  <circle cx="256" cy="416" r="32" fill="none" stroke="gray"/>
-  <circle cx="256" cy="384" r="32" fill="none" stroke="gray"/>
-  <circle cx="256" cy="352" r="32" fill="none" stroke="gray"/>
-  <circle cx="256" cy="320" r="32" fill="none" stroke="gray"/>
-  <circle cx="256" cy="288" r="32" fill="none" stroke="gray"/>
-  <circle cx="256" cy="256" r="32" fill="none" stroke="gray"/>
-  <circle cx="256" cy="224" r="32" fill="none" stroke="gray"/>
-  <circle cx="256" cy="192" r="32" fill="none" stroke="gray"/>
-  <circle cx="256" cy="160" r="32" fill="none" stroke="gray"/>
-  <circle cx="256" cy="128" r="32" fill="none" stroke="gray"/>
-  <circle cx="256" cy="96" r="32" fill="none" stroke="gray"/>
-  <circle cx="256" cy="64" r="32" fill="none" stroke="black"/>
+  <circle cx="256" cy="272" r="240" fill="#9D9D9D" stroke="black"/>
+   
+  <!-- 底圖 小圓 -->
+  <circle cx="256" cy="480" r="32" fill="none" stroke="#FCFCFC"/>
+  <circle cx="256" cy="448" r="32" fill="none" stroke="#FCFCFC"/>
+  <circle cx="256" cy="416" r="32" fill="none" stroke="#FCFCFC"/>
+  <circle cx="256" cy="384" r="32" fill="none" stroke="#FCFCFC"/>
+  <circle cx="256" cy="352" r="32" fill="none" stroke="#FCFCFC"/>
+  <circle cx="256" cy="320" r="32" fill="none" stroke="#FCFCFC"/>
+  <circle cx="256" cy="288" r="32" fill="none" stroke="#FCFCFC"/>
+  <circle cx="256" cy="256" r="32" fill="none" stroke="#FCFCFC"/>
+  <circle cx="256" cy="224" r="32" fill="none" stroke="#FCFCFC"/>
+  <circle cx="256" cy="192" r="32" fill="none" stroke="#FCFCFC"/>
+  <circle cx="256" cy="160" r="32" fill="none" stroke="#FCFCFC"/>
+  <circle cx="256" cy="128" r="32" fill="none" stroke="#FCFCFC"/>
+  <circle cx="256" cy="96" r="32" fill="none" stroke="#FCFCFC"/>
+  <circle cx="256" cy="64" r="32" fill="none" stroke="#FCFCFC"/> 
+  
+ <!-- 跑圖 小圓 -->
+  <circle cx="96" cy="256" r="32" fill="none" stroke="#FF0000" stroke-width="2" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(90,256,256)">
+  <animate attributeName="stroke-dashoffset" to="0" begin="1s" dur="1.0s" repeatCount="1" fill="freeze"/>
+  </circle>
+  <circle cx="160" cy="256" r="32" fill="none" stroke="#FF8000" stroke-width="2" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(90,256,256)">
+  <animate attributeName="stroke-dashoffset" to="0" begin="1.5s" dur="1.0s" repeatCount="1" fill="freeze"/>
+  </circle>
+  <circle cx="224" cy="256" r="32" fill="none" stroke="#FFD306" stroke-width="2" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(90,256,256)">
+  <animate attributeName="stroke-dashoffset" to="0" begin="2s" dur="1.0s" repeatCount="1" fill="freeze"/>
+  </circle>
+  <circle cx="288" cy="256" r="32" fill="none" stroke="#00BB00" stroke-width="2" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(90,256,256)">
+  <animate attributeName="stroke-dashoffset" to="0" begin="2.5s" dur="1.0s" repeatCount="1" fill="freeze"/>
+  </circle>
+  <circle cx="352" cy="256" r="32" fill="none" stroke="#00AEAE" stroke-width="2" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(90,256,256)">
+  <animate attributeName="stroke-dashoffset" to="0" begin="3.0s" dur="1.0s" repeatCount="1" fill="freeze"/>
+  </circle>
+  <circle cx="416" cy="256" r="32" fill="none" stroke="#0066CC" stroke-width="2" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(90,256,256)">
+  <animate attributeName="stroke-dashoffset" to="0" begin="3.5s" dur="1.0s" repeatCount="1" fill="freeze"/>
+  </circle>
+  <circle cx="480" cy="256" r="32" fill="none" stroke="#6F00D2" stroke-width="2" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(90,256,256)">
+  <animate attributeName="stroke-dashoffset" to="0" begin="4s" dur="1.0s" repeatCount="1" fill="freeze"/>
+  </circle>
+  <circle cx="64" cy="256" r="32" fill="none" stroke="#FF2D2D" stroke-width="2" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(-90,64,64)">
+  <animate attributeName="stroke-dashoffset" to="0" begin="7.5s" dur="1.0s" repeatCount="1" fill="freeze"/>
+  </circle>
+  <circle cx="0" cy="256" r="32" fill="none" stroke="#FF9224" stroke-width="2" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(-90,64,64)">
+  <animate attributeName="stroke-dashoffset" to="0" begin="7s" dur="1.0s" repeatCount="1" fill="freeze"/>
+  </circle>
+  <circle cx="-64" cy="256" r="32" fill="none" stroke="#FFDC35" stroke-width="2" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(-90,64,64)">
+  <animate attributeName="stroke-dashoffset" to="0" begin="6.5s" dur="1.0s" repeatCount="1" fill="freeze"/>
+  </circle>
+  <circle cx="-128" cy="256" r="32" fill="none" stroke="#1AFD9C" stroke-width="2" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(-90,64,64)">
+  <animate attributeName="stroke-dashoffset" to="0" begin="6s" dur="1.0s" repeatCount="1" fill="freeze"/>
+  </circle>
+  <circle cx="-192" cy="256" r="32" fill="none" stroke="#019858" stroke-width="2" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(-90,64,64)">
+  <animate attributeName="stroke-dashoffset" to="0" begin="5.5s" dur="1.0s" repeatCount="1" fill="freeze"/>
+  </circle>
+  <circle cx="-256" cy="256" r="32" fill="none" stroke="#2894FF" stroke-width="2" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(-90,64,64)">
+  <animate attributeName="stroke-dashoffset" to="0" begin="5s" dur="1.0s" repeatCount="1" fill="freeze"/>
+  </circle>
+  <circle cx="-320" cy="256" r="32" fill="none" stroke="#9F35FF" stroke-width="2" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(-90,64,64)">
+  <animate attributeName="stroke-dashoffset" to="0" begin="4.5s" dur="1.0s" repeatCount="1" fill="freeze"/>
+  </circle>
 
-  <circle cx="256" cy="464" r="48" fill="none" stroke="black"/>
-  <circle cx="256" cy="432" r="80" fill="none" stroke="black"/>
-  <circle cx="256" cy="400" r="112" fill="none" stroke="black"/>
-  <circle cx="256" cy="368" r="144" fill="none" stroke="black"/>
-  <circle cx="256" cy="336" r="176" fill="none" stroke="black"/>
-  <circle cx="256" cy="304" r="208" fill="none" stroke="black"/>
-  <circle cx="256" cy="272" r="240" fill="none" stroke="black"/>
+ 
+  <!-- 跑圖 大圓 -->
+  <circle cx="80" cy="256" r="48" fill="none" stroke="#FF0000" stroke-width="5" pathLength="100" stroke-dasharray="10" stroke-dashoffset="100" transform="rotate(90,256,256)">
+  <animate attributeName="stroke-dashoffset" to="0" begin="14s" dur="1.0s" repeatCount="indefinite" fill="freeze"/>
+  </circle>
+  <circle cx="112" cy="256" r="80" fill="none" stroke="#FF8000" stroke-width="5" pathLength="100" stroke-dasharray="10" stroke-dashoffset="100" transform="rotate(90,256,256)">
+  <animate attributeName="stroke-dashoffset" to="0" begin="13.5s" dur="1.0s" repeatCount="indefinite" fill="freeze"/>
+  </circle>
+  <circle cx="144" cy="256" r="112" fill="none" stroke="#FFD306" stroke-width="5" pathLength="100" stroke-dasharray="10" stroke-dashoffset="100" transform="rotate(90,256,256)">
+  <animate attributeName="stroke-dashoffset" to="0" begin="13s" dur="1.0s" repeatCount="indefinite" fill="freeze"/>
+  </circle>
+  <circle cx="176" cy="256" r="144" fill="none" stroke="#00BB00" stroke-width="5" pathLength="100" stroke-dasharray="10" stroke-dashoffset="100" transform="rotate(90,256,256)">
+  <animate attributeName="stroke-dashoffset" to="0" begin="12.5s" dur="1.0s" repeatCount="indefinite" fill="freeze"/>
+  </circle>
+  <circle cx="208" cy="256" r="176" fill="none" stroke="#00AEAE" stroke-width="5" pathLength="100" stroke-dasharray="10" stroke-dashoffset="100" transform="rotate(90,256,256)">
+  <animate attributeName="stroke-dashoffset" to="0" begin="12s" dur="1.0s" repeatCount="indefinite" fill="freeze"/>
+  </circle>
+  <circle cx="240" cy="256" r="208" fill="none" stroke="#0066CC" stroke-width="5" pathLength="100" stroke-dasharray="10" stroke-dashoffset="100" transform="rotate(90,256,256)">
+  <animate attributeName="stroke-dashoffset" to="0" begin="11.5s" dur="1.0s" repeatCount="indefinite" fill="freeze"/>
+  </circle>
+  <circle cx="272" cy="256" r="240" fill="none" stroke="#9F35FF" stroke-width="5" pathLength="100" stroke-dasharray="10" stroke-dashoffset="100" transform="rotate(90,256,256)">
+  <animate attributeName="stroke-dashoffset" to="0" begin="11s" dur="1.0s" repeatCount="indefinite" fill="freeze"/>
+  </circle>
 
-  <circle cx="256" cy="240" r="208" fill="none" stroke="black"/>
-  <circle cx="256" cy="208" r="176" fill="none" stroke="black"/>
-  <circle cx="256" cy="176" r="144" fill="none" stroke="black"/>
-  <circle cx="256" cy="144" r="112" fill="none" stroke="black"/>
-  <circle cx="256" cy="112" r="80" fill="none" stroke="black"/>
-  <circle cx="256" cy="80" r="48" fill="none" stroke="black"/>
+  <circle cx="-176" cy="256" r="208" fill="none" stroke="#2894FF" stroke-width="5" pathLength="100" stroke-dasharray="10" stroke-dashoffset="100" transform="rotate(-90,64,64)">
+  <animate attributeName="stroke-dashoffset" to="0" begin="10.5s" dur="1.0s" repeatCount="indefinite" fill="freeze"/>
+  </circle>
+<circle cx="-208" cy="256" r="176" fill="none" stroke="#019858" stroke-width="5" pathLength="100" stroke-dasharray="10" stroke-dashoffset="100" transform="rotate(-90,64,64)">
+  <animate attributeName="stroke-dashoffset" to="0" begin="10s" dur="1.0s" repeatCount="indefinite" fill="freeze"/>
+  </circle>
+<circle cx="-240" cy="256" r="144" fill="none" stroke="#1AFD9C" stroke-width="5" pathLength="100" stroke-dasharray="10" stroke-dashoffset="100" transform="rotate(-90,64,64)">
+  <animate attributeName="stroke-dashoffset" to="0" begin="9.5s" dur="1.0s" repeatCount="indefinite" fill="freeze"/>
+  </circle>
+<circle cx="-272" cy="256" r="112" fill="none" stroke="#FFDC35" stroke-width="5" pathLength="100" stroke-dasharray="10" stroke-dashoffset="100" transform="rotate(-90,64,64)">
+  <animate attributeName="stroke-dashoffset" to="0" begin="9s" dur="1.0s" repeatCount="indefinite" fill="freeze"/>
+  </circle>
+<circle cx="-304" cy="256" r="80" fill="none" stroke="#FF9224" stroke-width="5" pathLength="100" stroke-dasharray="10" stroke-dashoffset="100" transform="rotate(-90,64,64)">
+  <animate attributeName="stroke-dashoffset" to="0" begin="8.5s" dur="1.0s" repeatCount="indefinite" fill="freeze"/>
+  </circle>
+<circle cx="-336" cy="256" r="48" fill="none" stroke="#FF2D2D" stroke-width="5" pathLength="100" stroke-dasharray="10" stroke-dashoffset="100" transform="rotate(-90,64,64)">
+  <animate attributeName="stroke-dashoffset" to="0" begin="8s" dur="1.0s" repeatCount="indefinite" fill="freeze"/>
+  </circle>
+  
+  <circle cx="256" cy="464" r="48" fill="none" stroke="#FCFCFC"/>
+  <circle cx="256" cy="432" r="80" fill="none" stroke="#FCFCFC"/>
+  <circle cx="256" cy="400" r="112" fill="none" stroke="#FCFCFC"/>
+  <circle cx="256" cy="368" r="144" fill="none" stroke="#FCFCFC"/>
+  <circle cx="256" cy="336" r="176" fill="none" stroke="#FCFCFC"/>
+  <circle cx="256" cy="304" r="208" fill="none" stroke="#FCFCFC"/>
+  <circle cx="256" cy="272" r="240" fill="none" stroke="#FCFCFC"/>
+
+  <circle cx="256" cy="240" r="208" fill="none" stroke="#FCFCFC"/>
+  <circle cx="256" cy="208" r="176" fill="none" stroke="#FCFCFC"/>
+  <circle cx="256" cy="176" r="144" fill="none" stroke="#FCFCFC"/>
+  <circle cx="256" cy="144" r="112" fill="none" stroke="#FCFCFC"/>
+  <circle cx="256" cy="112" r="80" fill="none" stroke="#FCFCFC"/>
+  <circle cx="256" cy="80" r="48" fill="none" stroke="#FCFCFC"/>
 
 
 
